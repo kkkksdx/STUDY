@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Program Files\\c\u002B\u002B_game_project\\Learn_OpenGL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{136A4E3E-E6D3-42FD-8A23-4C9B7F2D9FAF}|Learn_OpenGL.vcxproj|E:\\Program Files\\c\u002B\u002B_game_project\\Learn_OpenGL\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{136A4E3E-E6D3-42FD-8A23-4C9B7F2D9FAF}|Learn_OpenGL.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "E:\\Program Files\\c\u002B\u002B_game_project\\Learn_OpenGL\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "E:\\Program Files\\c\u002B\u002B_game_project\\Learn_OpenGL\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswCgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-18T04:27:45.586Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
