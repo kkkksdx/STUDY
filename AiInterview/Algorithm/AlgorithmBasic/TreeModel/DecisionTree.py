@@ -4,6 +4,12 @@ from typing import Union, Tuple
 
 class DecisionTree:
     def __init__(self, max_depth=None, min_samples_split=2, min_samples_leaf=1, task_type='classification'):
+        '''
+        max_depth: 最大深度
+        min_samples_split: 最小样本数
+        min_samples_leaf: 最小叶子节点样本数
+        task_type: 任务类型
+        '''
         self.max_depth = max_depth
         self.min_samples_split = min_samples_split
         self.min_samples_leaf = min_samples_leaf
