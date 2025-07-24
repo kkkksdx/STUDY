@@ -82,7 +82,20 @@ class LeNet(nn.Module):
         return running_loss / len(train_loader), accuracy
 
     def main():
-        pass
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model = LeNet(classes=10).to(device)
+        optimizer = optim.Adam(model.parameters(), lr=0.001)
+        criterion = nn.CrossEntropyLoss()
+        train_loader, test_loader = load_data()
+        for epoch in range(10):
+            train_loss, train_acc = train(model, device, train_loader, optimizer, epoch, criterion)
+            test_loss, test_acc = evaluate(model, device, test_loader, criterion)
+            print(f"Epoch {epoch+1}, Train Loss: {train_loss:.4f}, Train Acc: {train_acc:.2f}%, Test Loss: {test_loss:.4f}, Test Acc: {test_acc:.2f}%")
+        print("Training complete")
+        torch.save(model.state_dict(), "lenet.pth")
+        print("Model saved")
+        
+        
 
 
 
