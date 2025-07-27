@@ -6,6 +6,7 @@
 // This function sets up the OpenGL context and window properties
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
+void secondFunction(); // Forward declaration of a second function
 int main()
 {
 	// Initialize GLFW and create a window
@@ -29,6 +30,7 @@ int main()
 		std::cout << "Failed to initialize GLAD" << std::endl;
 		return -1;
 	}
+	secondFunction();
 	//	shader´´½¨
 	const char* vertexShaderSource = "#version 330 core\n"
 		"layout (location = 0) in vec3 aPos;\n"
@@ -115,6 +117,7 @@ int main()
 	glBufferData(GL_ARRAY_BUFFER, sizeof(secondTriangle), secondTriangle, GL_STATIC_DRAW);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, (void*)0); // because the vertex data is tightly packed we can also specify 0 as the vertex attribute's stride to let OpenGL figure it out
 	glEnableVertexAttribArray(0);
+	//glBindVertexArray(VAOs[0]);
 	// Main loop
 	while (!glfwWindowShouldClose(window))
 	{
@@ -168,4 +171,11 @@ void processInput(GLFWwindow* window)
 {
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
+}
+
+void secondFunction()
+{
+	int nrAttributes = 0;
+	glGetIntegerv(GL_MAX_VERTEX_ATTRIBS, &nrAttributes);
+	std::cout << "Maximum number of vertex attributes supported: " << nrAttributes << std::endl;
 }
