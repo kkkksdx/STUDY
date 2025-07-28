@@ -1,0 +1,49 @@
+# CMake generation dependency list for this directory.
+E:/DEV/Code/STUDY/GHOSTRUNNER/CMakeLists.txt
+E:/DEV/Code/STUDY/GHOSTRUNNER/build/CMakeFiles/4.1.0-rc1/CMakeCCompiler.cmake
+E:/DEV/Code/STUDY/GHOSTRUNNER/build/CMakeFiles/4.1.0-rc1/CMakeCXXCompiler.cmake
+E:/DEV/Code/STUDY/GHOSTRUNNER/build/CMakeFiles/4.1.0-rc1/CMakeRCCompiler.cmake
+E:/DEV/Code/STUDY/GHOSTRUNNER/build/CMakeFiles/4.1.0-rc1/CMakeSystem.cmake
+E:/DEV/Game/SDL3/cmake/SDL3Config.cmake
+E:/DEV/Game/SDL3/cmake/SDL3ConfigVersion.cmake
+E:/DEV/Game/SDL3/cmake/SDL3_imageConfig.cmake
+E:/DEV/Game/SDL3/cmake/SDL3_imageConfigVersion.cmake
+E:/DEV/Game/SDL3/cmake/SDL3_mixer-shared-targets-debug.cmake
+E:/DEV/Game/SDL3/cmake/SDL3_mixer-shared-targets.cmake
+E:/DEV/Game/SDL3/cmake/SDL3_mixerConfig.cmake
+E:/DEV/Game/SDL3/cmake/SDL3_mixerConfigVersion.cmake
+E:/DEV/Game/SDL3/cmake/SDL3_ttfConfig.cmake
+E:/DEV/Game/SDL3/cmake/SDL3_ttfConfigVersion.cmake
+E:/DEV/Game/SDL3/cmake/sdlcpu.cmake
+E:/DEV/Game/glm/share/glm/glmConfig-debug.cmake
+E:/DEV/Game/glm/share/glm/glmConfig.cmake
+E:/DEV/Game/glm/share/glm/glmConfigVersion.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/CMakeGenericSystem.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/CMakeRCInformation.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/FeatureSummary.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Linker/MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Linker/MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Linker/MSVC.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Initialize.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows.cmake
+E:/Program Files/CMake/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake
