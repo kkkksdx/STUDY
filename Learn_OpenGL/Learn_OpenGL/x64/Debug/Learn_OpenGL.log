@@ -1,2 +1,5 @@
 ﻿  main.cpp
+E:\Program Files\c++_game_project\Learn_OpenGL\Shader.h(4,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  (编译源文件“main.cpp”)
+  
   Learn_OpenGL.vcxproj -> E:\Program Files\c++_game_project\Learn_OpenGL\x64\Debug\Learn_OpenGL.exe

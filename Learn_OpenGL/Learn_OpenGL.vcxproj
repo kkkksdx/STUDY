@@ -135,6 +135,23 @@
   <ItemGroup>
     <ClCompile Include="..\glad\src\glad.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="Shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Learn_OpenGL.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragment.fg" />
+    <None Include="vertext.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\OPENGL RESOURCE\awesomeface.png" />
+    <Image Include="..\..\OPENGL RESOURCE\container.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
