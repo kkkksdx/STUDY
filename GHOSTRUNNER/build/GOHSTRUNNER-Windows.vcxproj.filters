@@ -4,6 +4,12 @@
     <ClCompile Include="E:\DEV\Code\STUDY\GHOSTRUNNER\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="E:\DEV\Code\STUDY\GHOSTRUNNER\src\core\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\DEV\Code\STUDY\GHOSTRUNNER\src\sceneMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="E:\DEV\Code\STUDY\GHOSTRUNNER\CMakeLists.txt" />

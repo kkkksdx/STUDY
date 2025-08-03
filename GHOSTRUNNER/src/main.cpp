@@ -1,6 +1,10 @@
-#include <SDL3/SDL.h>
-
-int main()
+#include "core/game.h"
+int main(int, char **)
 {
-    return 0; // Placeholder for the main function
+    // 初始化游戏
+    Game &game = Game::GetInstance();
+    game.init("Ghost Runner", 1280, 720);
+    // 运行游戏主循环
+    game.run();
+    return 0;
 }

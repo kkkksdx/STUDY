@@ -1,6 +1,6 @@
 ^E:\DEV\CODE\STUDY\GHOSTRUNNER\BUILD\CMAKEFILES\DFE88A38044AA5F4D2CF9BE70D28B411\GENERATE.STAMP.RULE
 setlocal
-"E:\Program Files\CMake\bin\cmake.exe" -SE:/DEV/Code/STUDY/GHOSTRUNNER -BE:/DEV/Code/STUDY/GHOSTRUNNER/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/DEV/Code/STUDY/GHOSTRUNNER/build/GOHSTRUNNER.sln
+"E:\Program Files\CMake\bin\cmake.exe" -SE:/DEV/Code/STUDY/GHOSTRUNNER -BE:/DEV/Code/STUDY/GHOSTRUNNER/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/DEV/Code/STUDY/GHOSTRUNNER/build/SDLShooter.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

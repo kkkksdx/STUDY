@@ -174,9 +174,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\DEV\Code\STUDY\GHOSTRUNNER\build\GOHSTRUNNER-Windows.vcxproj">
-      <Project>{53552DCF-7F3B-3FEC-A3D2-C1D498C6D815}</Project>
-      <Name>GOHSTRUNNER-Windows</Name>
+    <ProjectReference Include="E:\DEV\Code\STUDY\GHOSTRUNNER\build\SDLShooter-Windows.vcxproj">
+      <Project>{20FA88E9-6832-3ACF-9E1E-2DC92226B5B4}</Project>
+      <Name>SDLShooter-Windows</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

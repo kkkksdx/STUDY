@@ -365,6 +365,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="E:\DEV\Code\STUDY\GHOSTRUNNER\src\main.cpp" />
+    <ClCompile Include="E:\DEV\Code\STUDY\GHOSTRUNNER\src\core\game.cpp" />
+    <ClCompile Include="E:\DEV\Code\STUDY\GHOSTRUNNER\src\sceneMain.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
